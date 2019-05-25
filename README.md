@@ -49,7 +49,7 @@ DevTools listening on ws://127.0.0.1:9222/devtools/browser/177485e2-7a4a-43cd-b6
 A unique url is created every time you run this command.
 Copy the url you see above. In the case aboce, copy `ws://127.0.0.1:9222/devtools/browser/177485e2-7a4a-43cd-b6b9-0da8a50618a4`
 
-To run the program, open a new terminal tab and navigate to the directory pdf-downloader.
+To run the program, open a new terminal tab and navigate to the pdf-downloader directory.
 Next, type the following command to run our script, using the url that you have copied:
 
 ```
