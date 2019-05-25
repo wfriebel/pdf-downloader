@@ -20,9 +20,9 @@ Make sure you have yarn installed. To check this type:
 which yarn
 ```
 
-If the terminal outputs the path to its binary like `/usr/local/Cellar/yvm/2.4.1/versions/v1.13.0/bin/yarn` then it is installed. If it is not installed, the terminal will not output any text.
+If the terminal outputs the path to yarn's binary, such as `/usr/local/Cellar/yvm/2.4.1/versions/v1.13.0/bin/yarn` then it is installed. If yarn is not installed, the terminal will not output any text.
 
-Next, confirm that you have node installed by following the same steps that you did to check if yarn was installed.
+Next, confirm that you have node installed by following the same steps that you just did to check if yarn was installed.
 
 Once you have confirmed that both yarn and node are installed, type the following command to download repo's dependencies:
 
