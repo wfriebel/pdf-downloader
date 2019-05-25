@@ -53,7 +53,7 @@ To run the program, open a new terminal tab and navigate to the directory pdf-do
 Next, type the following command to run our script, using the url that you have copied:
 
 ```
- node index.js --browser=ws://127.0.0.1:9222/devtools/browser/177485e2-7a4a-43cd-b6b9-0da8a50618a4
+ yarn start --browser=ws://127.0.0.1:9222/devtools/browser/177485e2-7a4a-43cd-b6b9-0da8a50618a4
 ```
 
 This will execute the program and close the browser. All pdfs will download to your downloads folder.
