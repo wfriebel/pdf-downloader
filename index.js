@@ -1,11 +1,6 @@
 const puppeteer = require("puppeteer");
 const argv = require("minimist")(process.argv.slice(2));
-
-const links = [
-  "https://psc-software.atlassian.net/wiki/spaces/flyingpdf/pdfpageexport.action?pageId=1773289",
-  "https://psc-software.atlassian.net/wiki/spaces/flyingpdf/pdfpageexport.action?pageId=1773289",
-  "https://psc-software.atlassian.net/wiki/spaces/flyingpdf/pdfpageexport.action?pageId=1773289"
-];
+const links = require("./links");
 
 (async () => {
   try {
@@ -16,7 +11,6 @@ const links = [
     const page = await browser.newPage();
 
     console.log("Downloading PDFs\n");
-
     for (let i = 0; i < links.length; i++) {
       const link = links[i];
       await page.goto(link);
